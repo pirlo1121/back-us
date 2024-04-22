@@ -4,7 +4,7 @@
   "description": "us",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon .app.js"
   },
   "author": "pirlo",
   "license": "ISC",
@@ -12,6 +12,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "mongose": "^0.0.2-security",
     "nodemon": "^3.1.0"
   }
 }
