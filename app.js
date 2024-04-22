@@ -10,6 +10,10 @@ const PORT = process.env.PORT || 3000
 app.use( cors());
 app.use( express.json());
 
+//rutas de la API
+app.use('/api/posts', require('./src/routes/post.routes'))
+
+
 
 
 dbConection();

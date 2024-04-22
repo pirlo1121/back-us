@@ -5,7 +5,7 @@ const { registerPost, getAllPosts, removeOnePostById } = require("../service/pos
 const createPost = async (req, res) =>{
     const inputData = req.body;
 
-    console.log(`data > ${data}`);
+    console.log(`data > ${inputData}`);
 
     try {
         const data = await registerPost( inputData );

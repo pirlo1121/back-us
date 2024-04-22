@@ -14,7 +14,7 @@ async function getOnePostById( id ) {
 }
 
 async function removeOnePostById( id ) {
-    return await postModel.findOneAndRemove({ _id: id });
+    return await postModel.findByIdAndDelete({ _id: id });
 }
 
 
