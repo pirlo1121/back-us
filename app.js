@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const cors = require('cors');
+const cors = require( 'cors' );
 const { dbConection } = require('./src/config/mongo.config');
 require( 'dotenv' ).config();                
 
@@ -18,5 +18,5 @@ app.use('/api/posts', require('./src/routes/post.routes'))
 
 dbConection();
 app.listen( PORT, function() {
-    console.log( `express funcionandoo en : ${ PORT }` );
+    console.log( `express funcionandoo en >>>> ${ PORT }` );
 } );

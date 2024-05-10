@@ -18,7 +18,6 @@ async function removeOnePostById( id ) {
 }
 
 
-
 module.exports = {
     registerPost, 
     getAllPosts, 
